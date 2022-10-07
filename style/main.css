@@ -1,0 +1,99 @@
+main {
+    width: 1600px;
+    margin: 0 auto;
+    height: 750px;
+    background-image: linear-gradient(120deg, #32eabfc9, #1ac1d7e7), url(img/main_image.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-clip: content-box, content-box;
+}
+
+main .fence {
+    width: 1450px;
+    margin: 0 auto;
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .left_content {
+    width: 580px;
+    color: white
+}
+
+main .left_content .title {
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 65px;
+    font-size: 55p;
+}
+
+main .left_content .subtitle {
+    margin-top: 5px;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+main .buttons {
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+main .buttons .button1 {
+    display: inline-block;
+    width: 150px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 55px;
+    text-align: center;
+    background-color: #061e37;
+    border-radius: 7px;
+}
+
+main .buttons .button2 {
+    display: inline-block;
+    margin-left: 30px;
+    width: 160px;
+    height: 55px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    background-color: white;
+    color: #061e37;
+    border-radius: 7px;
+}
+
+main .right_content .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.863)),
+        url(../img/vidio_screensaver.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.363);
+}
+
+main .right_content .video .play_button {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #061e37;
+}
+
+main .right_content .video .label {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #061e37;
+    text-transform: uppercase;
+}

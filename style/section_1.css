@@ -1,0 +1,101 @@
+.section_1 {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: white;
+    color: black;
+}
+
+.section_1 .fence {
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.section_1 .text_block {
+    width: 570px;
+    color: #b0bec5;
+}
+
+.section_1 .text_block h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: black
+}
+
+.section_1 .text_block h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section_1 .text_block p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+.section_1 .cards {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.section_1 .card {
+    /* background-color: rgba(255, 0, 0, 0.075); */
+    width: 360px;
+
+}
+
+.section_1 .card h3 {
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #061e37;
+}
+
+.section_1 .card p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #78909c;
+}
+
+.section_1 .card_1 {
+    background: url(../img/icon_goes_1.png) no-repeat top center;
+}
+
+.section_1 .card_2 {
+    background: url(../img/icon_goes_2.png) no-repeat top center;
+}
+
+.section_1 .card_3 {
+    background: url(../img/icon_goes_3.png) no-repeat top center;
+}
+
+.section_1 .button {
+    margin-top: 80px;
+    width: 150px;
+    height: 50px;
+    background-color: #1de9b6;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    color: white;
+    border: 0 solid;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.219);
+}

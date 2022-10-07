@@ -1,0 +1,32 @@
+
+/* font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+         @import url(zeroing.css);
+    @import url(header.css);
+    @import url(main.css);
+    @import url(section_1.css);
+    @import url(section_2.css);
+    @import url(section_3.css);
+    @import url(section_4.css);
+    @import url(section_5.css);
+    @import url(section_6.css);
+    @import url(footer.css);
+body {
+    margin:0;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #061e37;
+    background-color: grey;
+    
+}
+header, main,  .section_1, .section_3{
+    display: none;
+}
+
+.section_4{
+    width: 1600px;
+    margin: 0 auto;
+    background-color: skyblue;
+}
