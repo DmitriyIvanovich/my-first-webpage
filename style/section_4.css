@@ -2,19 +2,20 @@
     width: 1600px;
     margin: 0 auto;
     background-color: rgb(231, 244, 250);
+    background-image: linear-gradient(90deg, rgba(0, 234, 185, 0.96), rgba(14, 189, 213, 0.96)), url(../img/bgc_s4.jpg);
 }
 
 .section_4 .fence {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(228, 148, 148);
+    /* background-color: rgb(228, 148, 148); */
     width: 1450px;
     margin: 0 auto;
 }
 
 .section_4 .left_box {
     margin-top: 130px;
-    background-color: green;
+    /* background-color: green; */
     width: 520px;
     color: white;
     font-weight: 600;
@@ -61,7 +62,8 @@
     padding-top: 40px;
     /* background-color: red; */
 }
-/* .section_4 .right_box .coments_block {} */
+/* .section_4 .right_box .coments_block {
+} */
 
 .section_4 .right_box .coment {
     display: flex;
