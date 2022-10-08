@@ -22,6 +22,6 @@ body {
     
 }
 header, main,  .section_1, .section_3{
-    display: none;
+    /* display: none; */
 }
 
