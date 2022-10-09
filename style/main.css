@@ -2,7 +2,7 @@ main {
     width: 1600px;
     margin: 0 auto;
     height: 750px;
-    background-image: linear-gradient(120deg, #32eabfc9, #1ac1d7e7), url(img/main_image.jpg);
+    background-image: linear-gradient(120deg, #32eabfc9, #1ac1d7e7), url(../img/main_image.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-clip: content-box, content-box;
@@ -35,11 +35,13 @@ main .left_content .subtitle {
 }
 
 main .buttons {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 15px;
     text-transform: uppercase;
 }
-
+main .buttons a{
+    display: block;
+}
 main .buttons .button1 {
     display: inline-block;
     width: 150px;
@@ -47,6 +49,7 @@ main .buttons .button1 {
     font-family: 'Roboto', sans-serif;
     line-height: 55px;
     text-align: center;
+    color:white;
     background-color: #061e37;
     border-radius: 7px;
 }

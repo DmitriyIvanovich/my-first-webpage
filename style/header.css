@@ -1,16 +1,14 @@
 header {
     position: absolute;
-    margin-top: 55px;
-    width: 100vw;
+    margin:50px auto;
+    width: 1600px;
     color: white;
 }
 
 header .fence {
-    position: relative;
     display: grid;
-    grid: "logo nav button" auto / 1fr auto 1fr;
+    grid:"logo nav button" auto/1fr auto 1fr;
     width: 1450px;
-    height: 27px;
     margin: 0 auto;
     /* background-color: rgb(138, 57, 57); */
 }
@@ -28,17 +26,28 @@ header .logo {
 header nav {
     display: flex;
     grid-area: nav;
+    align-items: center;
     /* background-color: red; */
 
 }
 
-header nav>* {
+header nav a{
+    line-height: 200%;
+    text-align: center;
     margin: 0 35px;
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: color 700ms 0ms;
+
 }
 
+header nav a:hover{
+    color: #061e37;
+}
 header .button {
+    display: block;
     grid-area: button;
     justify-self: end;
     width: 80px;
@@ -48,4 +57,10 @@ header .button {
     line-height: 25px;
     border: 1px solid white;
     border-radius: 3px;
+    color: white;
+    transition: color 700ms 0ms;
+}
+
+header .button:hover{
+    background-color: rgba(255, 255, 255, 0.096);
 }

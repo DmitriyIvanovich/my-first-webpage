@@ -1,27 +1,31 @@
-
 /* font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif; */
-         @import url(zeroing.css);
-    @import url(header.css);
-    @import url(main.css);
-    @import url(section_1.css);
-    @import url(section_2.css);
-    @import url(section_3.css);
-    @import url(section_4.css);
-    @import url(section_5.css);
-    @import url(section_6.css);
-    @import url(footer.css);
+@import url(zeroing.css);
+@import url(header.css);
+@import url(main.css);
+@import url(section_1.css);
+@import url(section_2_showing.css);
+@import url(section_3_services.css);
+@import url(section_4_coments.css);
+@import url(section_5_ourTeam.css);
+@import url(section_6_contactUs.css);
+@import url(footer.css);
+
 body {
-    margin:0;
+    margin: 0 auto;
     position: relative;
+    width: 1600px;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #061e37;
     background-color: grey;
-    
-}
-header, main,  .section_1, .section_3{
-    /* display: none; */
+
 }
 
+/* header,
+main,
+.section_1,
+.section_3 {
+    display: none;
+} */
