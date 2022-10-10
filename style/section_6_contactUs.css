@@ -1,0 +1,94 @@
+.section_6 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+}
+
+.section_6 .fence {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section_6 .text_block h3 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section_6 .text_block p {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.section_6 form {
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px 40px;
+    /* background-color: red; */
+}
+
+.section_6 form input {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #061e37;
+    background-color: #fafafa;
+    border-radius: 6px;
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.section_6 form textarea {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 20px 20px;
+    resize: none;
+    height: 150px;
+    border: 1px solid #061e37;
+    background-color: #fafafa;
+    border-radius: 6px;
+    grid-column: span 2;
+}
+
+.section_6 form .checkbox {
+    align-self: center;
+}
+
+.section_6 form .checkbox * {
+    font-size: 15px;
+    font-weight: 500;
+    vertical-align: middle;
+    height: max-content;
+    margin: 0;
+    cursor: pointer;
+}
+
+.section_6 form .button {
+    width: 130px;
+    background-color: #1de9b6;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: white;
+    justify-self: end;
+    box-shadow: -2px 5px 10px 1px #dbdbdb;
+    cursor: pointer;
+}
+.section_6 form .button:hover {
+    background-color: #15fcc2;
+}
+.section_6 form .button:active {
+    background-color: #25e2b3;
+}
