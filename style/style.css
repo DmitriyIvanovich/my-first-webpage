@@ -28,6 +28,6 @@ main,
 .section_1,
 .section_3,
 .section_4,
-.section_5 {
+.section_5,.section_6 {
     display: none;
 } */
