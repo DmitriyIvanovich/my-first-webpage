@@ -49,6 +49,7 @@
 }
 
 .section_3 .box_list .header {
+    list-style-type: none;
     line-height: 50px;
     background: url(../img/trending_up.png) left center no-repeat,
         url(../img/arrow_drop_down.png) right center no-repeat;
@@ -56,31 +57,30 @@
 }
 
 .section_3 .box_list .header .name {
+    display: inline;
     margin-left: 40px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
+
 .section_3 .box_list .cell .popup {
-    display: none;
-}
-.section_3 .box_list .cell:hover .popup {
     display:block;
     min-height: 150px;
     padding-bottom:25px;
     font-size: 15px;
 }
 
-.section_3 .box_list .cell:hover .popup img {
+.section_3 .box_list .cell .popup img {
     float: left;
     margin-top:-5px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-right: 25px;
     width: 250px;
 }
 
-.section_3 .box_list .cell:hover .popup span{
+.section_3 .box_list .cell .popup span{
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 30;
